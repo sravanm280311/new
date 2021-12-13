@@ -1,0 +1,20 @@
+let fruits = ["banana", "apple"];
+console.log(fruits.length);
+console.log(fruits);
+let first = fruits[0];
+console.log(first);
+let last = fruits[fruits.length - 1];
+console.log(last);
+fruits.forEach(function (i, inde, array) {
+  console.log(i, inde);
+});
+let newLength = fruits.push("Orange");
+console.log(fruits);
+let lastlength = fruits.pop();
+console.log(lastlength);
+let firstlength = fruits.shift();
+console.log(fruits);
+let newlength = fruits.unshift("Strawberry");
+console.log(fruits);
+let pos = fruits.indexOf("Strawberry");
+console.log(pos);
